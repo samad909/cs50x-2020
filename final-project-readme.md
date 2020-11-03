@@ -11,6 +11,7 @@ At any point if the device has been found the user can contact the website Admin
 
 The website has the following sections,
 
+
 **USER END**
 
 *Index*\
@@ -27,6 +28,9 @@ The website has the following sections,
 
 *Admin Login*\
 -Allows an admin to login.
+
+*API*\
+-Allows anyone to lookup a device by sending a POST request with valid IMEI number.
 
 
 **ADMIN END**
@@ -51,8 +55,6 @@ The website has the following sections,
 *Change Password*\
 -Allows the admin to change their password.
 
-*API*\
--Allows anyone to lookup a device by sending a POST request with valid IMEI number.
 
 *Major validations done*
 1. Ensuring that all fields are filled using HTML and Python (for bad actors)
