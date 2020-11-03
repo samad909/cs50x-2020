@@ -32,13 +32,13 @@ The website has the following sections,
 **ADMIN END**
 
 *Pending Reports*\
-This section lists all the reports pending verification. If an admin chooses to reject a report the admin has to provide a reason, which will be shown when a user who submitted the report checks the website to see the status of his report.
+-This section lists all the reports pending verification. If an admin chooses to reject a report the admin has to provide a reason, which will be shown when a user who submitted the report checks the website to see the status of his report.
 
 *Search Reports*\
-The admin can lookup an active report/reports using the mobile number (multiple reports can be submitted for the same number) or the IMEI (only one report can be active for a unique IMEI). The admin can then choose to deactivate an active report if the device has been found, after confirmation the report is marked as found and deactivated i.e. it is no longer visible on the website when searched.
+-The admin can lookup an active report/reports using the mobile number (multiple reports can be submitted for the same number) or the IMEI (only one report can be active for a unique IMEI). The admin can then choose to deactivate an active report if the device has been found, after confirmation the report is marked as found and deactivated i.e. it is no longer visible on the website when searched.
 
 *Stats*\
-This page shows a basic list of stats which contains the number of,
+-This page shows a basic list of stats which contains the number of,
 1. Reports submitted within the current day.
 2. Reports submitted within the current month.
 3. Reports waiting verification.
@@ -46,13 +46,13 @@ This page shows a basic list of stats which contains the number of,
 5. Reports that have been marked as found (device has been found).
 
 *Admins*\
-This page can only be accessed by super admins, if a normal admin tries to access this page an error is shown. A super admin can add new Admins to the system and choose if they will be normal admins or super admins. The only difference between the two categories is that super admins can manage the Admins section. A list is shown when this page is accessed which lists all admins (except the logged in admin), using this list a super admin can remove any other admin from the system.
+-This page can only be accessed by super admins, if a normal admin tries to access this page an error is shown. A super admin can add new Admins to the system and choose if they will be normal admins or super admins. The only difference between the two categories is that super admins can manage the Admins section. A list is shown when this page is accessed which lists all admins (except the logged in admin), using this list a super admin can remove any other admin from the system.
 
 *Change Password*\
-Allows the admin to change their password.
+-Allows the admin to change their password.
 
 *API*\
-Allows anyone to lookup a device by sending a POST request with valid IMEI number.
+-Allows anyone to lookup a device by sending a POST request with valid IMEI number.
 
 *Major validations done*
 1. Ensuring that all fields are filled using HTML and Python (for bad actors)
